@@ -17,7 +17,7 @@ public class Item {
   private Sku[] skus;
   private Cate[] cates;
 
-  @JsonProperty("itemid")
+  @JsonProperty("itemID")
   private String itemId;
 
   @JsonProperty("item_name")
